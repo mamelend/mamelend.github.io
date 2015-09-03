@@ -1,63 +1,95 @@
-/** {border: 1px solid red}*/
-header {width:100%;background-color: black; position: fixed;}
-footer {background-color: black; height: 80px;}
-header > ul > li > a 
-{
-	font-family: 'Lato', sans-serif;
-	font-size: 1em;
+/** {border: 1px solid red} */
+
+/*Sets max width and  min width for the body.*/
+body {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	min-width: 400px;
+}
+
+/*Sets the header.*/
+header {
+	border: 1px solid black; 
+	background-color: black; 
+	max-height: 60px; 
+	min-height: 60px;
+}
+
+/*Sets the footer.*/
+footer {
+	background-color: black; 
+	max-height: 100px; 
+	min-height: 80px;
+	margin-top: -20px;
+	width: 100%;
+}
+nav table {
 	background-color: black;
+	width: 100%;
+}
+
+table a {
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+
+}
+
+table a:hover {color:#FF9791;}
+
+/*Sets header links.*/
+header a {
+	font-size: 1em;
 	color: white;
 	text-decoration: none;
 	list-style-type: none;
 }
 
-header > ul > li 
-{
-	float: right;
-	padding-top: 5%;
-	padding-right:10px; 
-	padding-left:10px;
-	margin-left: 2px;
-	margin-right: 2px;
-
-}
-
-footer > ul > li
-{
-	display:inline-block;
-	background-color: black;
+/*Sets the footer lists.*/
+footer li {
+	display: inline-block;
 	float: left;
-	padding-right:2%; 
-	padding-left:2%;
-	margin-left: 5%;
-	margin-right: 5%;
-
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-footer img 
-{	
+/*Sets the footer iamges.*/
+footer img {	
 	width: 50px; 
 	height: 50px;
 	padding-top: 25%;
 }
 
-section img
-{ 
+/*Sets the main image.*/
+section img { 
+	
 	width: 100%;
 	height: 100%;
-	clear: both;
-	
 }
 
-#logo a 
-{
+/*Sets the logo.*/
+p.logo a {
 	font-family: 'Dancing Script', cursive;
 	font-size: 2em; 
 	font-weight: bold;
 	color: white;
-	text-decoration: none;
-	float: left;
-	padding-left: 2%;
-	padding-bottom: 2px;
+	padding-bottom: auto;
 }
-#logo a:hover {color:#E8A06E;}
+
+/*Sets the hover for the logo.*/
+p.logo a:hover {color:#E8A06E;}
+
+/*Sets text for email link.*/
+.mailTo {
+	font-weight: bold;
+	color: black;
+	padding: .5em;
+	font-size: .75em;
+
+}
+
+/*Sets the hover for the email link.*/
+address.mailTo a:hover {color:#E8A06E;}
