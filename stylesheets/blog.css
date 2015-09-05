@@ -1,0 +1,18 @@
+.blog_posts h2 {
+	color: #56E86C;
+	font-weight: bold;
+}
+
+h3 {
+	color: #E85678;
+	font-weight: bold;
+}
+
+.blog_posts ul {
+	text-align: left;
+	list-style-type: none;	
+}
+
+.blog_posts a {
+	text-decoration: none;
+}

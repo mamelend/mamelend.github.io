@@ -4,7 +4,8 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	min-width: 400px;
+	min-width: 440px;
+	background-color: #ebe6e0;
 }
 
 /*Sets the header.*/
@@ -31,7 +32,7 @@ nav table {
 
 /*Sets the footer.*/
 footer {
-	border: 1px solid black; 
+	 
 	background-color: black; 
 	max-height: 80px; 
 	min-height: 60px;
@@ -71,27 +72,16 @@ footer img {
 	margin-bottom: 2px;
 
 }
-
 /*Sets the main image.*/
 section img {
 	width: 100%;
 	height: 100%;
 }
 
-.blog_posts h2 {
+h2 {
 	color: #74BCFF;
 	font-weight: bold;
 }
-
-.blog_posts ul {
-	text-align: left;
-	list-style-type: none;	
-}
-
-.blog_posts a {
-	text-decoration: none;
-}
-
 /*Sets the logo.*/
 p.logo a {
 	font-family: 'Dancing Script', cursive;
