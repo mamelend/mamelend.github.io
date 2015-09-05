@@ -15,28 +15,6 @@ header {
 	min-height: 60px;
 }
 
-/*Sets the footer.*/
-footer {
-	background-color: black; 
-	max-height: 100px; 
-	min-height: 80px;
-	margin-top: -20px;
-	width: 100%;
-}
-nav table {
-	background-color: black;
-	width: 100%;
-}
-
-table a {
-	text-decoration: none;
-	list-style-type: none;
-	color: white;
-
-}
-
-table a:hover {color:#FF9791;}
-
 /*Sets header links.*/
 header a {
 	font-size: 1em;
@@ -45,29 +23,73 @@ header a {
 	list-style-type: none;
 }
 
+nav table {
+	background-color: black;
+	display: table;
+	width: 100%;
+}
+
+/*Sets the footer.*/
+footer {
+	border: 1px solid black; 
+	background-color: black; 
+	max-height: 80px; 
+	min-height: 60px;
+	width: 100%;
+}
+
+footer table {
+	background-color: black;
+	display: table;
+	width: 100%;
+}
+
+td {
+	display:table-cell;
+	width: 20%;
+}
+
+table a {
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+}
+
+table a:hover {color:#FF9791;}
+
 /*Sets the footer lists.*/
-footer li {
-	display: inline-block;
-	float: left;
-	text-align: center;
-	padding-left: 5%;
-	padding-right: 5%;
-	margin-right: auto;
-	margin-left: auto;
+footer > table > td {
+	display: table-cell;
+	width: 33.33333%;
 }
 
 /*Sets the footer iamges.*/
 footer img {	
 	width: 50px; 
 	height: 50px;
-	padding-top: 25%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+
 }
 
 /*Sets the main image.*/
-section img { 
-	
+section img {
 	width: 100%;
 	height: 100%;
+}
+
+.blog_posts h2 {
+	color: #74BCFF;
+	font-weight: bold;
+}
+
+.blog_posts ul {
+	text-align: left;
+	list-style-type: none;	
+}
+
+.blog_posts a {
+	text-decoration: none;
 }
 
 /*Sets the logo.*/
@@ -88,8 +110,9 @@ p.logo a:hover {color:#E8A06E;}
 	color: black;
 	padding: .5em;
 	font-size: .75em;
-
 }
+
+p {margin-left:20%;margin-right:20%;}
 
 /*Sets the hover for the email link.*/
 address.mailTo a:hover {color:#E8A06E;}
