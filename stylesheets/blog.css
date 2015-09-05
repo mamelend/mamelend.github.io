@@ -1,6 +1,7 @@
 .blog_posts h2 {
 	color: #56E86C;
 	font-weight: bold;
+	text-align: left;
 }
 
 h3 {
@@ -9,6 +10,7 @@ h3 {
 }
 
 .blog_posts ul {
+	display:inline;
 	text-align: left;
 	list-style-type: none;	
 }
