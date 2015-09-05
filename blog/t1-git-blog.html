@@ -1,69 +1,75 @@
 <!DOCTYPE html>
+<html>
 <head>
-  <link href="../stylesheets/default.css" type="text/css" rel="stylesheet">
-  <title>Your page title here</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+  <link href="../stylesheets/default.css" type="text/css" rel="stylesheet">
+  <title> Miguel Melendez Calero Blog </title>
 </head>
 <body>
 <!-- This will be the Header-->
 <header>
-<ul>
-  <li> <a href="../index.html"> Miguel Melendez Calero</a> </li>
-  <li> <a href="#">About</a> </li>
-  <li> <a href="index.html">Blog</a> </li>
-  <li> <a href="#">Contact</a> </li>
-</ul>
-</header>
-<hr />
+  <p class="logo"> <a href="../index.html">miguel melendez calero</a> </p>
+  </header>
+  <nav>
+    <table> 
+      <tr>
+        <td> <a href="../about.html">about</a> </td>
+        <td> <a href="index.html">blog</a></td>
+        <td> <a href="#">contact</a> </td>
+        <td> <a href="#">dev</a> </td>
+        <td> <a href="#">editorial</a> </td>
+      </tr>
+    </table>
+  </nav>
+<!-- This will be an image for the page-->
+<section class="blog_posts">
 <!-- This will be links to all posts-->
-<nav>
-  <h4> <b>links to various blog posts</b> </h4> 
+  <h2>My Blog</h2> 
   <ul>
-    <li> <a href="c1-chefs-kitchen.html"> Cultural Discussion </a></li>
-    <li> <a href="t1-git-blog.html"> Week 1 </a></li>
+  <li> <a href="c1-chefs-kitchen.html">Chef's Kitchen</a></li>
+  <li> <a href="t1-git-blog.html">Bourne Again</a></li>
   </ul>
-</nav>
-<main>
-  <section>
+</section>
     <h2>Bourne Again</h2>
     <h4>08/20/2015</h4>
       <p>
-      Well, I’m just about wrapping up my assignments for the first week of Dev Bootcamp and I have to admit I didn’t expect to learn so much in just the first few days. We haven’t touched much code yet, but that’s okay because what we have looked at has been super interesting. This first week has introduced us to the terminal, or the command line; the shell, or bash specifically; and Version Control, Git, and GitHub, which I’ll go a little bit further into below: 
+      Well, I’m just about wrapping up my assignments for the first week of Dev Bootcamp and I have to admit that I didn’t expect to learn so much in just the first few days. We haven’t touched much code yet, but that’s okay because what we have looked at has been super interesting. This first week has introduced us to the terminal, or the command line; the shell, or bash specifically; and Version Control, Git, and GitHub, which I’ll go a little bit further into below: 
       </p>
       <p>
-      Version Control is a system that stores changes to a given set of data (source code, editorial prose, etc.) over time so that users can keep track of what changes have been made to the data, and to recall specific states of that data. Version Control has many benefits, but principal among them are that they allow multiple users to collaborate on specific sets of data, adding and editing the same set of data, and merging the changes all together. Also, Version Control provides for users to backup the data at specific points throughout its lifecycle and then recall the data at specific points, sort of the way you might restore your operating system from a backup, or the way you might load up a video game from a specific checkpoint (not just the last checkpoint). Lastly, I think it is also important to point out how incredibly useful it is for the user (or users) to have a complete record of changes and documentation on why those changes were made, so that they might come back to a certain set of data, say years later, and understand what happened.
+      Version Control is a system that stores changes to a given set of data (source code, editorial prose, etc.) over time so that users can keep track of what changes have been made to the data, and to recall specific states of that data. Version Control has many benefits, but principal among them are that they allow multiple users to collaborate on specific sets of data, adding and editing the same set of data, and merging the changes all together, in real time. Also, Version Control provides for users to backup the data at specific points throughout its lifecycle and then recall the data, sort of the way you might restore your operating system from a backup, or the way you might load up a video game from a specific checkpoint (not just the last checkpoint). Lastly, I want to empahsize how incredibly useful it must be for users to have a complete record of changes, and documentation on why those changes were made, in order that they might come back to a certain set of data, say years later, and understand what happened.
       </p>
       <p>
-      Git, which is the version control system used here at Dev Bootcamp, tracks changes using a two-way encryption mechanism that basically takes snapshots of states of data, and then compares it with previous snapshots, in order to efficiently store the different states of your data as you work through a project. For example, if you have 10 files in a particular set of data, but only make changes to one, those changes will be tracked along with how it relates to the rest of the data.
+      Git tracks changes using a two-way encryption mechanism that basically takes snapshots of states of data, and then compares it with previous snapshots, in order to efficiently store the different states of your data as you work through a project. For example, if you have 10 files in a particular set of data, but only make changes to one, those changes will be tracked along with how it relates to the rest of the data.
       </p>
       <p>
-      GitHub, is a free online Git repository hosting service, that allows users to save and collaborate on different projects and also stores information on how the projects can be accessed and (legally) used. As a collaborative tool, GitHub is useful for opening up your code to a given group of people to take a look at a recommend small specific changes. Github also has a social network component, wikis, and various task management tools.
+      GitHub, is a free online Git repository hosting service, that allows users to save and collaborate on different projects and also stores information on how the projects can be accessed and (legally) used. As a collaborative tool, GitHub is useful for opening up your code to a given group of people to take a look at and recommend small specific changes. Github also has a social network component, wikis, and various task management tools.
       </p>
       <p>
       I know that I’m just scratching the surface here when it comes to most of these: Bash, Git, and GitHub. But I feel incredibly motivated in continuing to learn how to use these tools and services, and I can already start to see the world of difference it will make when approaching code and how I can bridge it over to creating something more tangible and useful for others.
       </p>
       <p>
-      Bendiciónes! mmc
+      bendiciónes! mmc
       </p>
 
-
-
-
-
-      <!-- copy and paste as many sections as you want to add paragraphs -->
-  </section>
-</main>
-<!-- This will be the footer(contact info)-->
-<hr />
-<footer>
-  <a href="https://twitter.com/mmelendezcal"> <img src="../imgs/logo_twitter.png" height=55 width=55 alt="twitter logo"/>
-  </a>
-  <a href="https://www.linkedin.com/in/mamelend"> <img src="../imgs/logo_linkedin.svg" height=60 width=60 alt="linkedin logo"/>
-  </a>
-  <a href="https://plus.google.com/+MiguelMelendezA/posts"> <img src="../imgs/logo_google.png" height=50 width=50 alt="google logo"/>
-  </a>
-  <address> <a href="mailto:m.melend@gmail.com">miguel melendez</a></address>
-</footer>
+  <footer>
+    <table>
+      <tr>
+        <td><a href="https://twitter.com/mmelendezcal"> <img src="../imgs/logo_twitter.png"alt="Miguel Melendez on Twitter"/>
+        </a></td>
+        <td><a href="https://www.linkedin.com/in/mamelend"> <img src="../imgs/logo_linkedin.png" alt="Miguel Melendez on LinkedIn"/>
+        </a></td>
+        <td><a href="https://plus.google.com/+MiguelMelendezA/posts"> <img src="../imgs/logo_google.png" alt="Miguel Melendez on Google"/>
+        </a></td>
+      </tr>
+    </table>
+  </footer>
+    
+    <section>
+      <address class="mailTo">
+        <a href="mailto:m.melend@gmail.com">m.melend@gmail.com</a>
+      </address>
+    </section>
 </body>
 </html>
