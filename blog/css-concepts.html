@@ -34,11 +34,27 @@
   <li> <a href="css-concepts.html">CSS Concepts</a></li>
   </ul>
 </section class="blog_posts">
-    <h3>Post Name</h3>
-    <h4>Post Date</h4>
+    <h3>CSS Concepts</h3>
+    <h4>09/05/2015</h4>
       <p>
-      Post paragraph...
+      Of the topics covered during this last week of unit 1, phase-0, I know that I hadn't exactly mastered the display property. Specifically, what is the difference between the inline and inline-block display values. So naturally, I opened up my browser to GOOGLE, and began to click away.
       </p>
+      <p>
+      After merely a few clicks, I scrolled down a page of stack overflow and discovered a remarkably concise list of the differences. But of course, it wouldn't do you any good for me to just paste that and not supply any context. So here goes:
+      </p>
+      <p> 
+      When you designate elements of a parent element to display "block" you are saying that you want the elements to sit on top of one another, presumably like blocks. That is to say, the images will stack. Because there is one element per line, you have free reign over margins, borders, and padding.
+      </p>
+      <p> 
+      And when you designate elements of a parent element to display "inline" you are saying that you want the elements to line up next to each other. Because this is the display you want, css limits what you can do with them, in order to honor the goal of this display value. So inline elements can not set width and height, and margins cannot be added to the top or bottom.
+      </p>
+      <p> 
+      Finally, when you designate elements of a parent element to display "inline-block" you are saying that you want the elements to behave like block elements, except you don't necessarily want a page break after each element.
+      </p>
+      <p> 
+      Check out the image for an simple graphical representation.
+      </p>
+      <img src="http://i.stack.imgur.com/mGTYI.png" alt="Display Value Chart"/>
       <p>
       bendiciónes! mmc
       </p>
@@ -62,21 +78,3 @@
     </section>
 </body>
 </html>
-<!--
-	How was it to wireframe and create an HTML page with a pair?
-	
-	We didn't do much wireframing, we decided to go with the template I put together during assignment 2.4.
-
-	Did you find wireframing to be helpful to your development process?
-	
-	Quite! It gave us a simple solid structure to try and build.
-
-	What did you and your pair decide made a good wireframe?
-
-	We decided to keep it simple, especially since we wont be doing too much styling. We decided it was a good idea to use <div> to divide up the sections.
-	
-	What new semantic elements did you learn about (if any)?
-	I hadn't used <div> too much, most of the other things we've gone over a bit. We also through in some horizontal rules to seperate sections visually.
--->
-
-<!-- This will be the footer(contact info)-->
