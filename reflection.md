@@ -1,4 +1,4 @@
-**[MY SITE](mamelend.github.io/index.html)
+**[MY SITE](https://mamelend.github.io/index.html)
 **What did you learn about CSS padding, borders, and margin by doing this challenge?**
 
 *What can I say about CSS, and it's padding, borders and margin properties? I was about to ingrain the key function of each, and gained some expereince in how the work in relation to one another. There is so much more to learn. Trial and error was the name of the game until I began to gain some confidence in what my changes would do before I implemented them. *
