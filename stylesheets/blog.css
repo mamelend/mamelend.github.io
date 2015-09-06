@@ -1,20 +1,39 @@
-.blog_posts h2 {
-	color: #56E86C;
+ul {
+	list-style-type: none;
+	text-indent: -40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.leftside h3 {
+	color: #74BCFF;
 	font-weight: bold;
 	text-align: left;
 }
 
-h3 {
+.leftside ul {
+	text-align: left;
+}
+
+.rightside h3 {
 	color: #E85678;
 	font-weight: bold;
+	text-align: center;
 }
 
-.blog_posts ul {
-	display:inline;
-	text-align: left;
-	list-style-type: none;	
+.rightside h4 {
+	text-align: center;
 }
 
-.blog_posts a {
-	text-decoration: none;
+section.leftside {
+	width: 20%;
+	float: left;
+}
+
+section.rightside {
+	display: inline;
+	width: 80%;
+	float: left;
 }

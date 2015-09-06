@@ -32,7 +32,8 @@ nav table {
 
 /*Sets the footer.*/
 footer {
-	 
+	clear: both;
+	display:block;
 	background-color: black; 
 	max-height: 80px; 
 	min-height: 60px;
@@ -41,12 +42,10 @@ footer {
 
 footer table {
 	background-color: black;
-	display: table;
 	width: 100%;
 }
 
 td {
-	display:table-cell;
 	width: 20%;
 }
 
@@ -60,7 +59,6 @@ table a:hover {color:#FF9791;}
 
 /*Sets the footer lists.*/
 footer > table > td {
-	display: table-cell;
 	width: 33.33333%;
 }
 
