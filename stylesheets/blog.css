@@ -15,6 +15,7 @@ a {
 
 .leftside ul {
 	text-align: left;
+	font-size: .8em;
 }
 
 .rightside h3 {
@@ -34,6 +35,6 @@ section.leftside {
 
 section.rightside {
 	display: inline;
-	width: 80%;
+	width: 60%;
 	float: left;
 }
