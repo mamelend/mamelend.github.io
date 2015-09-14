@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+  <link href="../stylesheets/default.css" type="text/css" rel="stylesheet">
+  <link href="../stylesheets/blog.css" type="text/css" rel="stylesheet">
+  <title> MMC BLOG </title>
+</head>
+<body>
+<!-- This will be the Header-->
+<header>
+  <p class="logo"> <a href="../index.html">miguel melendez calero</a> </p>
+  </header>
+  <nav>
+    <table> 
+      <tr>
+        <td> <a href="../about.html">about</a> </td>
+        <td> <a href="index.html">blog</a></td>
+        <td> <a href="#">contact</a> </td>
+        <td> <a href="#">dev</a> </td>
+        <td> <a href="#">editorial</a> </td>
+      </tr>
+    </table>
+  </nav>
+<div>
+<!--Display Post History Links-->
+<section class="leftside">
+  <h3>Post History</h3> 
+  <ul>
+  <li> <a href="c1-chefs-kitchen.html">Chef's Kitchen</a></li>
+  <li> <a href="t1-git-blog.html">Bourne Again</a></li>
+  <li> <a href="css-concepts.html">CSS Concepts</a></li>
+  <li> <a href="arrays-hashes.html">Arrays and Hashes</a></li>
+  </ul>
+</section>
+<!-- Current Article-->
+<section class="rightside">
+    <h3>Arrays and Hashes</h3>
+    <h4>09/13/2015</h4>
+      <p>
+        Welcome back, Reader. I'm glad you've come back to join me for the end of week four. This week was all about Ruby. More specifically, we were introduced to some of its basic classes, variables, methods, conditionals, flow control, rspec and error finding, and finally iterators and collections.
+      </p>
+      <p>
+        I wanted to take a few minutes and just layout my understanding of collections, of course for your benefit, but also in hopes that it will reinforce my own understanding of the various concepts. In Ruby, we've been introduced to two collections. One is called the Array, and the other is called the Hash.
+      </p>
+      <p>
+        Arrays are indexed collections that are accessed through referencing their index which is an integer. An array may look something like the following:
+      </p>
+        <code>
+          new_array = [ “apple”, “plum”, “nectarine”, “grapefruit” ] <br>
+          new _array[0]   =>   "apple" <br>
+          new_array[3]    =>   "grapefruit"
+        </code>
+      <p>
+        Arrays live inside these <code>[]</code> brackets.  The convention, when creating a new array, is to set a variable name <code>=</code> to a given list of items, within square brackets and separated by commas. This is called a literal declaration. As in, you are literally declaring all of the contents of the array. You can also use the constructor <code>Array.new</code> to make a new empty array.
+      </p>
+        <code>
+          new_array = Array.new
+        </code>
+      <p>
+        Arrays are useful for lists that need to be accessed quickly, and that already have some sort of uniformity.  If you have a list that isn't in any easily defined order, it's better to use a Hash.
+      </p>
+      <p>
+        Hashes, are almost identical to Arrays. They are similar in that each item of an array or hash has both a value and an index, but they are different in that indexes for hashes are refered to as keys and they can be anything. Oh! And hashes use braces rather than square brackets.
+      </p>
+        <code> 
+          new_hash = {
+          'item'  =>  'box', <br>
+          'animal'  =>  'fox', <br>
+          'food'  =>  'lox', <br>
+          } <br>
+          new_hash = Hash.New
+        </code>
+      <p>
+          Again, hashes are useful if there isn't any sort of consecutive number structure that can be used to id each value. 
+      </p>
+      <p>
+        Well, that's all for the moment. I'm currently still finishing up this week's work, so I apologize for the brevity of the post. Please join me again soon!
+      </p>
+      <p>
+      bendiciónes! mmc
+      </p>
+  </section>
+  </div>
+  <footer>
+    <table>
+      <tr>
+        <td><a href="https://twitter.com/mmelendezcal"> <img src="../imgs/logo_twitter.png"alt="Miguel Melendez on Twitter"/>
+        </a></td>
+        <td><a href="https://www.linkedin.com/in/mamelend"> <img src="../imgs/logo_linkedin.png" alt="Miguel Melendez on LinkedIn"/>
+        </a></td>
+        <td><a href="https://plus.google.com/+MiguelMelendezA/posts"> <img src="../imgs/logo_google.png" alt="Miguel Melendez on Google"/>
+        </a></td>
+      </tr>
+    </table>
+  </footer>
+    
+    <section>
+      <address class="mailTo">
+        <a href="mailto:m.melend@gmail.com">m.melend@gmail.com</a>
+      </address>
+    </section>
+</body>
+</html>
