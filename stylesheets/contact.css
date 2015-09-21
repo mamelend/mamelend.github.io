@@ -1,0 +1,29 @@
+#form-wrap {
+	width: 50%;
+	min-width: 280px;
+	border: 5px solid #ccc;
+	background-color: #afc8de;
+	margin: 0% 25% 5% 25%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+form {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+}
+
+input {
+	width: 250px;
+}
+
+textarea {
+	width: 250px;
+	height: 100px;
+}
+
+fieldset {
+	border: none;
+}
