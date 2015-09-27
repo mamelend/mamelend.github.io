@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -40,21 +40,33 @@
 </section>
 <!-- Current Article-->
 <section class="rightside">
-    <h3>Chef's Kitchen</h3>
-    <h4>08/20/2015</h4>
+ <h3>A little about Ruby classes</h3>
+    <h4>09/27/2015</h4>
       <p>
-      Much of what was discussed today seems to coincide with my previous thoughts on walking through the doors of Dev Bootcamp, come October. For one, I can  identify with being worried about how I will stack up, whether or not I'll be able to grasp the various concepts of software development. I think that Shereef’s response to this idea is encouraging in that he seemed very confident that those who make it through the admissions process are capable. I like the emphasis on concentrating on developing or fostering a hunger to learn, rather than worrying about how much you currently know.
+        Classes are the blue prints used to create objects in a running system. The following is a very basic class intended for instructional purposes. No cats were harmed during the creation of this blog post:
+      </p>
+      <script src="https://gist.github.com/mamelend/c5f0c3fabe396c34fa3f.js"></script>
+      <p>
+        This class basically allows us to hold the name and color of a particular cat (or instance of the Class Cat), and allow us to print out a meow message and another message that includes the above information. Storing information in instance variables with the "@" sign allows for us to use that information anywhere else in the class. For example. as I just mentioned, the @name and @color variables are used again in the display method, in order to allow us to print out that information about the cat.
       </p>
       <p>
-      I also like the idea of concentrating on the more social aspects of software development. It seems that Dev Bootcamp hones in on the hidden art of teaching others to work cooperatively, and I am very much looking forward to putting that into practice. The idea of students sharing techniques and best practices, and in turn having them spread throughout the cohort sounds facinating. I look forward to discussing the importance of emotional empathy, and issues such as race and gender, because I feel that as a culture there is a real lack of understanding when it comes to these issues. I'm eager to engage as someone with a sociology and history academic background, in order to hopefully add something beneficial to the discussion.
+        Outside of the class, I first created a new instance of the class with:
+      </p>
+      <script src="https://gist.github.com/mamelend/3abe22d6c63e06f7910c.js"></script>
+      <p>
+        And then I was able to call that instance of the class by typing:
+      </p>
+      <script src="https://gist.github.com/mamelend/06c31045d93b714345e7.js"></script>
+      <p>
+        As you can see, there was no need to provide the name and color arguements again. Classes are very powerful for compartmentalizing data of bigger systems. Think of it this way, what if I wanted to write a program that accessed all of the different pets in a household? Rather than handle all of the different factors in one Pets class, I can divide them up into maybe Cat, Dog, Fish, and Bird classes. Each could have its own distinct variables and features that might be more appropriate or specific for the given pet. For example, I could create a Dog class that includes a variable for the breed.
       </p>
       <p>
-      I don’t know that my expectations have changed much, I think the video is in line with what I have come to expect from Dev Bootcamp. I am both excited and nervous at the idea of learning so much in such a short amount of time.
+        I hope you enjoyed our brief look at classes, please feel free to contact me with any questions about this post.
       </p>
       <p>
       bendiciónes! mmc
       </p>
-  </section>
+      </section>
   </div>
   <footer>
     <table>
