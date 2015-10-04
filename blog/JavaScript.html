@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+  <link href="../stylesheets/default.css" type="text/css" rel="stylesheet">
+  <link href="../stylesheets/blog.css" type="text/css" rel="stylesheet">
+  <title> MMC BLOG </title>
+</head>
+<body>
+<!-- This will be the Header-->
+<header>
+  <p class="logo"> <a href="../index.html">miguel melendez calero</a> </p>
+  </header>
+  <nav>
+    <table> 
+      <tr>
+        <td> <a href="../about.html">about</a> </td>
+        <td> <a href="index.html">blog</a></td>
+        <td> <a href="../contact.html">contact</a> </td>
+        <td> <a href="../projects/index.html">dev</a> </td>
+        <td> <a href="#">editorial</a> </td>
+      </tr>
+    </table>
+  </nav>
+<div>
+<!--Display Post History Links-->
+<section class="leftside">
+  <h3>Post History</h3> 
+  <ul>
+  <li> <a href="c1-chefs-kitchen.html">Chef's Kitchen</a></li>
+  <li> <a href="t1-git-blog.html">Bourne Again</a></li>
+  <li> <a href="css-concepts.html">CSS Concepts</a></li>
+  <li> <a href="arrays-hashes.html">Arrays/Hashes</a></li>
+  <li> <a href="tech-issue-diversity.html">Tech Diversity</a></li>
+  <li> <a href="enumerable-methods.html">Enumerables</a></li>
+  <li> <a href="ruby-classes.html">Ruby Classes</a></li>
+  <li> <a href="JavaScript.html">JavaScript</a></li>
+  </ul>
+</section>
+<!-- Current Article-->
+<section class="rightside">
+ <h3>Ruby Hashes vs. JavaScript Objects</h3>
+    <h4>10/04/2015</h4>
+      <p>
+        This week was all about picking up Javascript. I don't think I would be doing anyone a favor if I failed to mention how limiting and redundant Javascript felt compared to Ruby. But there was one area in particular, while learning the fundamentals of Javascript, that sort of surprised me in how wonderful it was to use; that would be Javascript Objects versus Ruby Hashes.
+      </p>
+      <p>
+        These both look syntactically similar. Hashes and Objects use the colon in literal definitions and calls (see below) and they function pretty much the same in terms of being structured as key and value pairs. They can also both hold arrays, integers, strings, other objects, or a combination of any or all of these.
+      </p>
+      <script src= "https://gist.github.com/mamelend/c487fb8bc457d26d4f58.js"></script>
+
+      <script src="https://gist.github.com/mamelend/84d8a7676d0ce9760e40.js"></script>
+      <p>
+        How do they differ? A JavaScript Object is a collection of properties that references other objects, whereas a Ruby Hash contains instance variables which refer to other objects. In other words, Ruby Hashes hold variables which point to other objects elsewhere in memory, while JavaScript Objects hold properties which are tied specifically to that object.
+      </p>
+      <p>
+        While I’m not yet familiar with the ins and outs of that, I will say that it seems much more easy to read and write to JavaScript Objects than Ruby Hashes. For example, accessing values inside an object is as simple as: 
+      </p>
+        <script src="https://gist.github.com/mamelend/b3907a3702ca5155496a.js"></script>
+      <p>
+        In addition to the way that you might call an object or hash by passing into item[] either the <b>key</b> value or an <b>expression</b> that evaluates to the key value, Javascript gives you a special way to call upon the values of properties, which is: 
+      </p>
+        <script src="https://gist.github.com/mamelend/1bc4213c59f8ed18dfed.js"></script>
+      <p>
+        To add a property to the cat object that does not yet exsist we can do the following:
+      </p>
+        <script src="https://gist.github.com/mamelend/b972aede293e4a121a78.js"></script>
+      <p>
+        Don’t like a property and want to get rid of it?
+      </p>
+        <script src="https://gist.github.com/mamelend/49a35c863b2278396429.js"></script>
+      <p>
+        It’s that simple.
+
+        <b>Note: In JavaScript, all attributes can be read, but only the value attribute can be changed (and only if the property is writable).</b>
+      </p>
+      <p>
+        I hope you enjoyed this brief comparison of Ruby hashes and JavaScript Objects, please feel free to contact me with any questions about this post.
+      </p>
+      <p>
+      bendiciónes! mmc
+      </p>
+      </section>
+  </div>
+  <footer>
+    <table>
+      <tr>
+        <td><a href="https://twitter.com/mmelendezcal"> <img src="../imgs/logo_twitter.png"alt="Miguel Melendez on Twitter"/>
+        </a></td>
+        <td><a href="https://www.linkedin.com/in/mamelend"> <img src="../imgs/logo_linkedin.png" alt="Miguel Melendez on LinkedIn"/>
+        </a></td>
+        <td><a href="https://plus.google.com/+MiguelMelendezA/posts"> <img src="../imgs/logo_google.png" alt="Miguel Melendez on Google"/>
+        </a></td>
+      </tr>
+    </table>
+  </footer>
+    
+    <section>
+      <address class="mailTo">
+        <a href="mailto:m.melend@gmail.com">m.melend@gmail.com</a>
+      </address>
+    </section>
+</body>
+</html>
