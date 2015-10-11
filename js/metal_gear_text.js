@@ -95,4 +95,4 @@ function scenario_one() {
   var avatar = command();
 }
 
-scenario_one();
+document.write(scenario_one());
