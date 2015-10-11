@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link href="../stylesheets/default.css" type="text/css" rel="stylesheet">
+	<link href="../stylesheets/projects.css" type="text/css" rel="stylesheet">
+	<title> MMC Blog </title>
+</head>
+<body>
+<!-- This will be the Header-->
+<header>
+	<p class="logo"> <a href="../index.html">miguel melendez calero</a> </p>
+	</header>
+	<nav>
+		<table> 
+			<tr>
+				<td> <a href="../about.html">about</a> </td>
+				<td> <a href="../blog/index.html">blog</a></td>
+				<td> <a href="../contact.html">contact</a> </td>
+				<td> <a href="../projects/index.html">dev</a> </td>
+				<td> <a href="#">editorial</a> </td>
+			</tr>
+		</table>
+	</nav>
+
+<section>
+<!-- These will be links to all projects-->
+	<h3 class = "proj-title">Ruby Enumerables Cheat Sheet</h3> 
+		<p><em>Disclaimer: All of the information contained here and the examples were highlighted during my first reading through The Well-Grounded Rubyist by David A. Black. I've typed it up and presented it in a super concise format in order to easily refer back to these great examples.</em></p>
+
+		<h4 class = "proj-subtitle">#each</h4>
+		<p>This is what I do: Iterates through each element in an enumerable.</p>
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/7d1578b7d5c2b3ded2f1.js"></script>
+
+		<p>WGR: “Exactly what each does will vary from one class to another. In the case of an array, each yields the first element, then the second, and so forth. In the case of a hash, it yields key/value pairs in the form of two-element arrays. In the case of a file handle, it yields one line of the file at a time. Ranges iterate by first deciding whether iterating is possible (which it isn’t, for example, if the start point is a float) and then pretending to be an array.”</p>
+
+		<h4 class = "proj-subtitle">#detect or #find</h4>
+
+		<p>This is what I do: Returns the first element in the enumerable object for which the code block provided returns true.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/133e31f12f351406e948.js"></script>
+
+		<p>WGR: “find…returns the first element in an enumerable object for which the code block provided returns true. find works by calling each. each yields items, and find uses the code block we’ve given it to test those items one at a time for a match.”</p>
+
+		<h4 class = "proj-subtitle">#include?</h4>
+		<p>This is what I do: Iterates through each element in an enumerable to determine if argument is found, if so returns true.</p>
+		
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/316fd3b116026b88d8c9.js"></script>
+		 
+		<h4 class = "proj-subtitle">#all?</h4>
+
+		<p>This is what I do: Returns true if all elements in the enumerable satisfy the code block.
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/83e92ed5562750d3d227.js"></script>
+
+		<h4 class = "proj-subtitle">#any?</h4>
+		<p>This is what I do: Returns true if any elements in the enumerable satisfy the code block.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/4bbd0231ab2b3bcc2e36.js"></script>
+
+		<h4 class = "proj-subtitle">#one?</h4>
+		<p>This is what I do: Returns true if exactly one element in the enumerable satisfies the code block.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/3147eb152df4051cf534.js"></script>
+
+		<h4 class = "proj-subtitle">#none?</h4>
+		<p>This is what I do: Returns true if no element in the enumerable satisfies the code block.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/3f13be10061c956b194a.js"></script>
+
+		<h4 class = "proj-subtitle">#find_all or #select</h4>
+		<p>This is what I do: Returns a new collection containing all the elements of the original collection that match the criteria in the code block.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/27672f9fa7ea5330c413.js"></script>
+
+		<p>WGR: find_all (the same method as select) returns a new collection containing all the elements of the original collection that match the criteria in the code block, not just the first such element (as with find). If no matching elements are found, find_all returns an empty collection object.</p>
+
+		<h4 class = "proj-subtitle">#group_by</h4>
+		<p>This is what I do: Returns a hash with keys that represent the value of the code block, and arrays of the elements that satisfy the code block.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/d5e34f17f873e8a73ee6.js"></script>
+
+		<h4 class = "proj-subtitle">#partition</h4>
+		<p>This is what I do: Returns two arrays; one that satisfies the argument in the code block and one for elements that do not.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/d75241b4e237c20dc334.js"></script>
+
+		<h4 class = "proj-subtitle">#first</h4>
+		<p>This is what I do: Returns the first item encountered when iterating over the enumerable.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/44cc52284cd52c74e998.js"></script>
+
+		<h4 class = "proj-subtitle">#take</h4>
+		<p>This is what I do: Returns an array of the first __ number of elements where __ is the number passed in as an argument.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/6b43ffaa2ea89d48f52c.js"></script>
+
+
+		<h4 class = "proj-subtitle">#drop</h4>
+		<p>This is what I do: Returns an array of all of the elements outside the first __ number of elements where __ is the number passed in as an argument.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/bfb3f680622ba05202ad.js"></script>
+
+		<h4 class = "proj-subtitle">#take_while</h4>
+		<p>This is what I do: Iterates through each element to identify which arguments return true for the corresponding code block then returns an array of the first __ number of elements where __ is the number passed in as an argument.</p>
+
+		<p>This is what I look like:</p>
+
+		>> states = %w{ NJ NY CT MA VT FL }
+		=> ["NJ", "NY", "CT", "MA", "VT", "FL"]
+		>> states.take_while {|s| /N/.match(s) }
+		=> ["NJ", "NY"]
+
+		<script src="https://gist.github.com/mamelend/42e84fed7b0f458abbad.js"></script>
+
+		<h4 class = "proj-subtitle">#drop_while</h4>
+		<p>This is what I do: Iterates through each element to identify which arguments return true for the corresponding code block then returns an array of all of the elements outside the first __ number of elements where __ is the number passed in as an argument.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/de8cf2cf6f08d3b1df7d.js"></script>
+
+		<h4 class = "proj-subtitle">#max</h4>
+		<p>This is what I do: Grabs the element with the highest value.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/4a051978e16f7723c2ec.js"></script>
+
+		<h4 class = "proj-subtitle">#min</h4>
+		<p>This is what I do: Grabs the element with the lowest value.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/ee82a592bcf4c13555db.js"></script>
+
+		<h4 class = "proj-subtitle">#min_by or #max_by</h4>
+		<p>This is what I do: A more streamlined block-based approach which performs the comparison implicitly.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/02c225f269e29398522c.js"></script>
+
+		<h4 class = "proj-subtitle">#minmax and #minmax_by</h4>
+		<p>This is what I do: Grabs the elements with the highest and lowest values.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/39dcb84e02bab6c9fe86.js"></script>
+
+		<h4 class = "proj-subtitle">#each_with_index</h4>
+		<p>This is what I do: This works like the #each method except it also yields an integer representing the ordinal position of the item, each time through the collection.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/b9be26eb3306d58d011e.js"></script>
+
+		<h4 class = "proj-subtitle">#each.with_index()</h4>
+		<p>This is what I do: You can provide an argument that will be used as the first index value.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/5bda34b9e4385bf5159e.js"></script>
+
+		<h4 class = "proj-subtitle">#each_slice and #each_cons</h4>
+		<p>This is what I do: each_slice handles each element only once, whereas each_cons takes a new grouping at each element and thus produces overlapping yielded arrays.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/7a46e85cf210d8c11d61.js"></script>
+
+		<h4 class = "proj-subtitle">#inject or # reduce</h4>
+		<p>This is what I do: Initializes an accumulator object and then iterates through an enumerable object, performing a calculation on each iteration and resetting the accumulator, for purposes of the next iteration, to the result of that calculation. If you don’t supply an argument to inject, it uses the first element in the enumerable object as the initial value for acc.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/77bd5566587f55c97799.js"></script>
+
+		<h4 class = "proj-subtitle">#map or #collect</h4>
+		<p>This is what I do: Returns an array that is the same size as the original enumerable. Its elements consist of the accumulated result of calling the code block on each element in the original object in turn.</p>
+
+		<p>This is what I look like:</p>
+
+		<script src="https://gist.github.com/mamelend/f49a760574ef4cde35d1.js"></script>
+
+</section>
+<section class="image">
+	<img src= "../imgs/newyork.png" alt="newyork skyline"/>
+</section>
+	
+	<footer>
+		<table>
+			<tr>
+				<td><a href="https://twitter.com/mmelendezcal"> <img src="../imgs/logo_twitter.png"alt="Miguel Melendez on Twitter"/>
+				</a></td>
+				<td><a href="https://www.linkedin.com/in/mamelend"> <img src="../imgs/logo_linkedin.png" alt="Miguel Melendez on LinkedIn"/>
+				</a></td>
+				<td><a href="https://plus.google.com/+MiguelMelendezA/posts"> <img src="../imgs/logo_google.png" alt="Miguel Melendez on Google"/>
+				</a></td>
+			</tr>
+		</table>
+	</footer>
+    
+    <section>
+    	<address class="mailTo">
+    		<a href="mailto:m.melend@gmail.com">m.melend@gmail.com</a>
+    	</address>
+    </section>
+    
+</body>
+</html>
