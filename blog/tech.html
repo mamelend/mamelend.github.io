@@ -42,28 +42,27 @@
 </section>
 <!-- Current Article-->
 <section class="rightside">
- <h3>A little about Ruby classes</h3>
-    <h4>09/27/2015</h4>
+ <h3>The wonders of Recursion!</h3>
+    <h4>10/11/2015</h4>
       <p>
-        Classes are the blue prints used to create objects in a running system. The following is a very basic class intended for instructional purposes. No cats were harmed during the creation of this blog post:
+        Recursion, in computer science, decribes the process by which a function (or method) is defined, in part, by a call to itself. Recursive functions have two cases. A recursive case where the method calls itself, and a base case where the method does not call itself. The recursive case performs a subtask, or set of subtasks, until it satisfies the requirement for the base case, which ends the successive calls and begins to resolve the nest of calls in order to return a solution to the original problem. Take a look at a classic example, finding the factorial of a number.
       </p>
-      <script src="https://gist.github.com/mamelend/c5f0c3fabe396c34fa3f.js"></script>
+      <script src="https://gist.github.com/mamelend/90e38d1efd902c966fb6.js"></script>
       <p>
-        This class basically allows us to hold the name and color of a particular cat (or instance of the Class Cat), and allow us to print out a meow message and another message that includes the above information. Storing information in instance variables with the "@" sign allows for us to use that information anywhere else in the class. For example. as I just mentioned, the @name and @color variables are used again in the display method, in order to allow us to print out that information about the cat.
+        Passing in a 3 would initiate the following:
+        On the first pass through the intial if statement, 3 noes not equal 0 so it would hit
+        the else. The else would call the factorial method, except it would decrement the argument by 1. This would continue to occur until ultimately number = 0, and so that call would return 1 and this would begin by resolving the previous call, and continue until all calls are resolved. Please look at the following.
       </p>
+      <script src="https://gist.github.com/mamelend/5f453e0295947e02157c.js"></script>
       <p>
-        Outside of the class, I first created a new instance of the class with:
-      </p>
-      <script src="https://gist.github.com/mamelend/3abe22d6c63e06f7910c.js"></script>
-      <p>
-        And then I was able to call that instance of the class by typing:
-      </p>
-      <script src="https://gist.github.com/mamelend/06c31045d93b714345e7.js"></script>
-      <p>
-        As you can see, there was no need to provide the name and color arguements again. Classes are very powerful for compartmentalizing data of bigger systems. Think of it this way, what if I wanted to write a program that accessed all of the different pets in a household? Rather than handle all of the different factors in one Pets class, I can divide them up into maybe Cat, Dog, Fish, and Bird classes. Each could have its own distinct variables and features that might be more appropriate or specific for the given pet. For example, I could create a Dog class that includes a variable for the breed.
+        And so ultimately the method would return 6. 
       </p>
       <p>
-        I hope you enjoyed our brief look at classes, please feel free to contact me with any questions about this post.
+        So that's sort of the gist of Recursion. I guess the real question is, why or when should I use it instead of say, an iterative function. As best as I could find, the answer seems to bring us back to the basics. Use it when it makes most sense, when it improves the readability of your code and when if won't produce unesecary computation.
+      </p>
+      <p>
+        That's all I have for now, but please check back as I hope to update with a deeper understanding of recursion once I've used it in practice.
+      </p>
       </p>
       <p>
       bendiciónes! mmc
