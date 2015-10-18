@@ -1,14 +1,14 @@
 #form-wrap {
-	width: 50%;
+	width: 100%;
+	text-align: center;
 	min-width: 280px;
-	border: 5px solid #ccc;
-	background-color: gray;
-	margin: 0% 25% 5% 25%;
-	padding-top: 1%;
-	padding-bottom: 1%;
+	background-color: #ebe6e0;
+/*	padding-top: 1%;
+	padding-bottom: 1%;*/
 }
 form {
 	margin-bottom: 20px;
+
 }
 
 label {
@@ -16,14 +16,43 @@ label {
 }
 
 input {
-	width: 250px;
+	width: 80%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	background-color: #ebe6e0;
+	border-style: none;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-color: #B7B4BF;
 }
 
 textarea {
-	width: 250px;
+	width: 80%;
 	height: 100px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	background-color: #ebe6e0;
+	border-style: none;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-color: #B7B4BF;
 }
 
 fieldset {
 	border: none;
 }
+
+.btn {
+background-color: #ebe6e0;
+color: black;
+border-style: none;
+height: 3em;
+}
+
+.btn:hover {color:white; background-color: #74BCFF}

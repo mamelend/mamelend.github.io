@@ -9,7 +9,7 @@
 	<title> Miguel Melendez Calero Contact </title>
 </head>
 <body>
-<!-- This will be the Header-->
+<!-- Page Header -->
 <header>
 	<p class="logo"> <a href="index.html">miguel melendez calero</a> </p>
 	</header>
@@ -24,26 +24,29 @@
 			</tr>
 		</table>
 	</nav>
-<!-- This will be an image for the page-->
+<!-- Main Content -->
 <section class="center">
-<!-- This will be links to all posts-->
+<!-- Contact Form -->
 	<h2>Contact Me</h2> 
 	<div id="form-wrap">
-		<form>
+		<form name="sentMessage" id="contactForm" ACTION="mailto:m.melend@gmail.com?Subject=DBC%20Contact" >
 			<fieldset>
-				<label class="labelone" for="name">Name: </label>
-				<input name="name"/>
-				<label for="email">Email: </label>
-				<input name="email"/>
-				<label for="comments">Comments: </label>
-				<textarea name="comments"></textarea>
+				<label class="labelone" for="name"></label>
+				<input placeholder="Name" name="name"/>
+				<label for="number"></label>
+				<input placeholder="Phone Number" name="number"/>
+				<label for="email"></label>
+				<input placeholder="Email" name="email"/>
+				<label for="comments"></label>
+				<textarea placeholder="Message" name="comments"></textarea>
 			</fieldset>
 			<fieldset>
-				<input class = "btn" type= "submit" value="Send Email"/>
-				<input class = "btn" type="reset" value="Reset Form"/>
+				<input class = "btn" type="submit" value="Send"/>
+				<input class = "btn" type="reset" value="Reset"/>
 			</fieldset>
 		</form>
 </section>
+<!-- Page Image -->
 <section class="image">
 		<!--<img src= "imgs/bobolink.jpg" alt="bobolink picture"/>-->
 </section>
