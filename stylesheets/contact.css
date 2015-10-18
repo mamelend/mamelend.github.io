@@ -23,12 +23,14 @@ input {
 	border-style: none;
 	border-bottom-style: solid;
 	border-top-style: solid;
-	margin-top: 2px;
-	margin-bottom: 2px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 	border-top-width: 1px;
 	border-bottom-width: 1px;
 	border-color: #B7B4BF;
 }
+
+::-webkit-input-placeholder { color: black; }
 
 textarea {
 	width: 80%;
@@ -39,8 +41,8 @@ textarea {
 	border-style: none;
 	border-bottom-style: solid;
 	border-top-style: solid;
-	margin-top: 2px;
-	margin-bottom: 2px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 	border-color: #B7B4BF;
 }
 
@@ -49,10 +51,12 @@ fieldset {
 }
 
 .btn {
+cursor: pointer;
 background-color: #ebe6e0;
 color: black;
 border-style: none;
 height: 3em;
 }
 
-.btn:hover {color:white; background-color: #74BCFF}
+.btn:hover {cursor: pointer; color:white; background-color: black;}
+
