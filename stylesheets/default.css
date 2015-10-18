@@ -31,7 +31,8 @@ nav table {
 }
 
 section.center {
-	overflow: auto;
+	clear: both;
+	overflow: scroll;
 }
 
 /*Sets the footer.*/
@@ -45,7 +46,8 @@ footer table {
 	display: table;
 	width: 100%;
 	position: fixed;
-	bottom: 5px;
+	bottom: 0;
+	padding-top: 5px;
 }
 
 table td {
@@ -74,14 +76,15 @@ footer img {
 
 }
 /*Sets the main image.*/
-section.image {
-	overflow: scroll;
-	position: static;
+div.image {
+	position: absolute;
+	bottom: 70px;
 }
 
 section img {
+	min-height: 100%;
 	width: 100%;
-	overflow: scroll;
+	bottom: 0;
 }
 
 h2 {
@@ -112,5 +115,3 @@ p {
 	margin-left:20%;
 	margin-right:20%;
 }
-
-
