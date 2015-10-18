@@ -30,22 +30,25 @@ nav table {
 	width: 100%;
 }
 
+section.center {
+	overflow: auto;
+}
+
 /*Sets the footer.*/
 footer {
 	clear: both;
-	display:block;
-	background-color: black; 
-	max-height: 80px; 
-	min-height: 60px;
-	width: 100%;
+	height: 0px;
 }
 
 footer table {
 	background-color: black;
+	display: table;
 	width: 100%;
+	position: fixed;
+	bottom: 5px;
 }
 
-td {
+table td {
 	width: 20%;
 }
 
@@ -71,9 +74,14 @@ footer img {
 
 }
 /*Sets the main image.*/
+section.image {
+	overflow: scroll;
+	position: static;
+}
+
 section img {
 	width: 100%;
-	height: 100%;
+	overflow: scroll;
 }
 
 h2 {
@@ -100,9 +108,9 @@ p.logo a:hover {color:#E8A06E;}
 	font-size: .75em;
 }
 
-p {margin-left:20%;margin-right:20%;}
-
-/*Sets the hover for the email link.*/
-address.mailTo a:hover {color:#E8A06E;}
+p {
+	margin-left:20%;
+	margin-right:20%;
+}
 
 
