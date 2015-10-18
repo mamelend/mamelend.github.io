@@ -94,5 +94,5 @@ function scenario_one() {
   console.log("After an intense battle, " + boss.name + " is almost defeated.\nSend in a solider to finish him off!\n");
   var avatar = command();
 }
-
-document.write(scenario_one());
+var x = document.getElementById('game_one');
+x.write(scenario_one());
