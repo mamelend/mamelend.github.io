@@ -1,6 +1,6 @@
 /** {border: 1px solid red} */
 
-/*Sets max width and  min width for the body.*/
+/*Sets max width and min width for the body.*/
 body {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
@@ -82,8 +82,10 @@ div.image {
 }
 
 section img {
-	height: 100%;
-	width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
 }
 
 h2 {
