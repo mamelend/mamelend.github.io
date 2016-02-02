@@ -1,118 +1,80 @@
-/** {border: 1px solid red} */
-
-/*Sets max width and min width for the body.*/
+/** {border: 1px solid orange} 
+*/
 body {
-	font-family: 'Raleway', sans-serif;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	text-align: middle;
+	color: white;
+	background: black !important;
+}
+
+div {
+	display: block;
+	font-family:  sans-serif;
 	text-align: center;
-	min-width: 440px;
-	background-color: #ebe6e0;
-}
-
-/*Sets the header.*/
-header {
-	border: 1px solid black; 
-	background-color: black; 
-	max-height: 60px; 
-	min-height: 60px;
-}
-
-/*Sets header links.*/
-header a {
-	font-size: 1em;
-	color: white;
-	text-decoration: none;
-	list-style-type: none;
-}
-
-nav table {
-	background-color: black;
-	display: table;
-	width: 100%;
-}
-
-section.center {
-	clear: both;
-	overflow: scroll;
-}
-
-/*Sets the footer.*/
-footer {
-	clear: both;
-	height: 0px;
-}
-
-footer table {
-	background-color: black;
-	display: table;
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	padding-top: 5px;
-}
-
-table td {
-	width: 20%;
-}
-
-table a {
-	text-decoration: none;
-	list-style-type: none;
 	color: white;
 }
 
-table a:hover {color:#FF9791;}
-
-/*Sets the footer lists.*/
-footer > table > td {
-	width: 33.33333%;
+body.black {
+	color: black;
 }
 
-/*Sets the footer iamges.*/
-footer img {	
-	width: 50px; 
-	height: 50px;
-	margin-top: 2px;
-	margin-bottom: 2px;
-
-}
-/*Sets the main image.*/
-div.image {
-	position: absolute;
-	bottom: 70px;
+div.name {
+	height: 50%;
 }
 
-section img {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-    width: auto;
+.center {
+	vertical-align: center;
+}
+
+.body-text {
+	color: black;
+	text-align: center;
+}
+
+.topmargin {
+	margin-top: 1em;
+}
+
+div.nav {
+	height: 2em;
+}
+
+div.nav a {
+	font-size: .8em;
+	vertical-align: middle;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
 }
 
 h2 {
-	color: #74BCFF;
+	color: white;
 	font-weight: bold;
 }
+
+div.logo {
+	position: absolute;
+	padding: 0;
+	top: 40%;
+	bottom: 40%;
+	left: 20%;
+	right: 20%;
+}
+
 /*Sets the logo.*/
-p.logo a {
+div.logo a {
+	display: block;
 	font-family: 'Dancing Script', cursive;
-	font-size: 2em; 
+	font-size: 5em;
+	text-decoration: none;
+	list-style-type: none;
 	font-weight: bold;
 	color: white;
-	padding-bottom: auto;
+	padding-top: 75px;
 }
 
 /*Sets the hover for the logo.*/
-p.logo a:hover {color:#E8A06E;}
-
-/*Sets text for email link.*/
-.mailTo {
-	font-weight: bold;
-	color: black;
-	padding: .5em;
-	font-size: .75em;
-}
-
-p {
-	margin-left:20%;
-	margin-right:20%;
-}
+div.logo a:hover { color:#E8A06E; }
