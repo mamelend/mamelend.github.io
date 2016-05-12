@@ -4,22 +4,26 @@
 	<meta charset="uft-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="favicon.png">
-	<link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+
   <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-	<link href="stylesheets/default.css" type="text/css" rel="stylesheet">
+	
+  <link href="stylesheets/default.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
 	<title>Miguel Melendez Calero</title>
 </head>
 <body>
-	<div class="body-container nav">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js" ></script>
+	<div class="nav">
   	<div class="row">
-      <div class="col-xs-2 nav"></div>
-    	<div class="col-xs-2 nav"><a href="#">ABOUT</a></div>
-    	<div class="col-xs-2 nav"><a href="#">CONTACT</a></div>
-    	<div class="col-xs-2 nav"><a href="https://github.com/mamelend">DEVELOPMENT</a></div>
-      <div class="col-xs-2 nav"><a href="#">EDITORIAL</a></div>
-      <div class="col-xs-2 nav"></div>
+      
+    	<div class="col-xs-3 nav"><button id="about">ABOUT</button></div>
+    	<div class="col-xs-3 nav"><button id="contact" href="#">CONTACT</button></div>
+    	<div class="col-xs-3 nav"><button id="dev" href="https://github.com/mamelend">DEVELOPMENT</button></div>
+      <div class="col-xs-3 nav"><button id="editorial" href="#">EDITORIAL</button></div>
+      
   	</div>
   </div>
 
@@ -28,9 +32,9 @@
       <img src="imgs/mmc_logo_white.png" style="max-width: 400px;margin: 10px;"alt="logo">
     </div>
         <div class="row">
-      <img src="imgs/airtran.jpg" style="max-width: width;margin: 10px;" alt="filler">
+      <img class="filler" src="imgs/airtran.jpg" style="max-width: width;margin: 10px;" alt="filler">
     </div>
-  	<div class="row"> 
+  	<div id="about_marker" class="row"> 
       <div class="col-lg-3"></div>
 			<div class="col-lg-6 body-text"> 
         <h1>ABOUT ME</h1>
@@ -41,7 +45,7 @@
       </div>
     </div>
     
-    <div class="row"> 
+    <div id="dev_marker"class="row"> 
       <div class="col-lg-3"></div>
         <div class="col-lg-6 body-text"> 
           <h1>WHAT AM I WORKING ON?</h1>
@@ -50,7 +54,7 @@
       <div class="col-lg-3"></div>
 	  </div>
 
-    <div class="row"> 
+    <div id="editorial_marker" class="row"> 
       <div class="col-lg-3"></div>
         <div class="col-lg-6 body-text"> 
           <h1>DID I MENTION THAT I WRITE?</h1>
@@ -59,7 +63,7 @@
       <div class="col-lg-3"></div>
     </div>
 
-    <div class="row"> 
+    <div id="contact_marker" class="row"> 
       <div class="col-lg-3"></div>
         <div class="col-lg-6 body-text"> 
           <h1>WHERE TO FIND ME</h1>

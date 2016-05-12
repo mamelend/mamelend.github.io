@@ -3,14 +3,9 @@
 body {
 	display: block;
 	font-family: 'Oswald', sans-serif;
-	color: white;
-	background: black !important;
-}
-
-div {
-	font-family: 'Oswald', sans-serif;
 	text-align: center;
 	color: white;
+	background: black !important;
 }
 
 .center {
@@ -43,28 +38,24 @@ div {
 	margin-top: 1em;
 }
 
-div.bigtext {
-	font-size: 4em;
-	text-align: left;
-	margin-top: 30px;
-	margin-left: 30px;
-}
-
 div.nav {
 	margin-top: 20px;
 	font-family: 'Oswald', sans-serif; 
 	height: 2em;
 }
 
-div.nav a {
+div.nav button {
 	font-size: 1em;
-	text-decoration: none;
-	list-style-type: none;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
 	color: white;
 }
 
-.nav a:hover {
-	color: #BBD5FF;
+.nav button:hover {
+	font-weight: bolder;
 }
 
 h2 {
@@ -87,6 +78,7 @@ div.logo a {
 }
 
 div.footer {
+	color: white;
 	text-align: right;
 	margin-top: 40px;
 	font-family: 'Oswald', sans-serif; 
@@ -98,3 +90,11 @@ div.footer > img {
 
 /*Sets the hover for the logo.*/
 div.logo a:hover { color:#E8A06E; }
+
+@media screen and (orientation: portrait) {
+  img.filler { max-width: 90%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.filler { max-height: 90%; }
+}
