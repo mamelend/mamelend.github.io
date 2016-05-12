@@ -2,25 +2,15 @@
 */
 body {
 	display: block;
-	font-family: 'Montserrat', sans-serif;
-	text-align: middle;
+	font-family: 'Oswald', sans-serif;
 	color: white;
 	background: black !important;
 }
 
 div {
-	display: block;
-	font-family:  sans-serif;
+	font-family: 'Oswald', sans-serif;
 	text-align: center;
 	color: white;
-}
-
-body.black {
-	color: black;
-}
-
-div.name {
-	height: 50%;
 }
 
 .center {
@@ -28,8 +18,21 @@ div.name {
 }
 
 .body-text {
-	color: black;
+	margin: 40px 0px 40px 0px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.8em;
+	color: white;
 	text-align: center;
+}
+
+.body-text h1 {
+	color: #A8A8FF;
+}
+
+.body-text a:hover {
+	color: orange;
+	text-decoration: none;
+	list-style-type: none;
 }
 
 .topmargin {
@@ -37,7 +40,6 @@ div.name {
 }
 
 div.bigtext {
-	font-family: Arvo, serif;
 	font-size: 4em;
 	text-align: left;
 	margin-top: 30px;
@@ -45,17 +47,16 @@ div.bigtext {
 }
 
 div.nav {
+	margin-top: 20px;
+	font-family: 'Oswald', sans-serif; 
 	height: 2em;
 }
 
 div.nav a {
-	font-size: .8em;
-	vertical-align: middle;
-	font-family: sans-serif;
-	font-weight: bold;
-	color: black;
+	font-size: 1em;
 	text-decoration: none;
 	list-style-type: none;
+	color: white;
 }
 
 h2 {
@@ -64,24 +65,27 @@ h2 {
 }
 
 div.logo {
-	position: absolute;
-	padding: 0;
-	top: 40%;
-	bottom: 40%;
-	left: 20%;
-	right: 20%;
+	margin: 100px 0px 40px 0px;
 }
 
 /*Sets the logo.*/
 div.logo a {
-	display: block;
-	font-family: 'Dancing Script', cursive;
 	font-size: 5em;
 	text-decoration: none;
 	list-style-type: none;
 	font-weight: bold;
 	color: white;
 	padding-top: 75px;
+}
+
+div.footer {
+	text-align: right;
+	margin-top: 40px;
+	font-family: 'Oswald', sans-serif; 
+}
+
+div.footer > img {
+	display: inline;
 }
 
 /*Sets the hover for the logo.*/
