@@ -29,8 +29,12 @@ div {
 	color: #A8A8FF;
 }
 
+.body-text a {
+	color: #EABBFF;
+}
+
 .body-text a:hover {
-	color: orange;
+	color: #BBD5FF;
 	text-decoration: none;
 	list-style-type: none;
 }
