@@ -13,7 +13,7 @@ body {
 }
 
 .body-text {
-	margin: 40px 0px 40px 0px;
+	margin: 40px 10px 40px 10px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.8em;
 	color: white;
@@ -92,7 +92,7 @@ div.footer > img {
 div.logo a:hover { color:#E8A06E; }
 
 @media screen and (orientation: portrait) {
-  img.filler { max-width: 90%; }
+  img.filler { max-width: 80%; }
 }
 
 @media screen and (orientation: landscape) {
